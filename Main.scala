@@ -237,3 +237,6 @@ object DriveApp extends App {
   backend.removeDrive("google")
   println("\nAfter removing google drive: " + backend.listConnectedDrives())
 }
+
+
+// now make the drive manager to expose the s3 comptaible api for uploading so that we refetence multiple drives as if its one
